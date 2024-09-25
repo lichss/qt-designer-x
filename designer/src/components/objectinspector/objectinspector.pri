@@ -1,9 +1,9 @@
 # --- The Find widget is also linked into the designer_shared library.
 #     Avoid conflict when linking statically
 contains(CONFIG, static) {
-    INCLUDEPATH *= ../../../../shared/findwidget
+    INCLUDEPATH *= ../../../shared/findwidget
 } else {
-    include(../../../../shared/findwidget/findwidget.pri)
+    include(../../../shared/findwidget/findwidget.pri)
 }
 
 INCLUDEPATH += $$PWD

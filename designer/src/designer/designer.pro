@@ -13,8 +13,8 @@ contains(QT_CONFIG, static) {
     DEFINES += QT_DESIGNER_STATIC
 }
 
-include(../../../shared/fontpanel/fontpanel.pri)
-include(../../../shared/qttoolbardialog/qttoolbardialog.pri)
+include(../../shared/fontpanel/fontpanel.pri)
+include(../../shared/qttoolbardialog/qttoolbardialog.pri)
 
 QMAKE_DOCS = $$PWD/doc/qtdesigner.qdocconf
 

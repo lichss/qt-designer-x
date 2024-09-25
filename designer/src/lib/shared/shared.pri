@@ -7,15 +7,17 @@ INCLUDEPATH += $$PWD
 # statically, add the property browser solution to make the library self-contained
 # and use only the include path in the property editor (see propertyeditor.pri)
 
+#modify
 contains(CONFIG, static) {
-    include(../../../../shared/qtpropertybrowser/qtpropertybrowser.pri)
+    include(../../../shared/qtpropertybrowser/qtpropertybrowser.pri)
 } else {
-   include(../../../../shared/qtpropertybrowser/qtpropertybrowserutils.pri)
+   include(../../../shared/qtpropertybrowser/qtpropertybrowserutils.pri)
 }
 
-include(../../../../shared/deviceskin/deviceskin.pri)
-include(../../../../shared/findwidget/findwidget.pri)
-include(../../../../shared/qtgradienteditor/qtgradienteditor.pri)
+
+include(../../../shared/deviceskin/deviceskin.pri)
+include(../../../shared/findwidget/findwidget.pri)
+include(../../../shared/qtgradienteditor/qtgradienteditor.pri)
 
 # Input
 FORMS += $$PWD/addlinkdialog.ui \
