@@ -1,5 +1,6 @@
 *.user
-
+/.vscode
+/build-designer-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug
 /build-designer-Desktop_Qt_5_14_2_MSVC2017_32bit-Debug
 /build-designer-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 modi
