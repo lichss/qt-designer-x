@@ -165,4 +165,11 @@ qmake编译报错:
 - deleted:    designer/.qmake.stash
 - deleted:    designer/configure.json
 
-现在，或许，大概，可能能行
+### 第7次提交
+删除文件夹： 
+- include/QtDesignerComponents
+- include/QtHelp
+- include/QtUiPlugin
+- include/QtUiTools
+- shared/coreon
+- shared/winutils
