@@ -55,7 +55,7 @@ shared包含一些子文件夹，测试后发现有些子文件不需要。删�
     包含声明和实现。
     *QtPropertyBrowser 是 Qt的属性表控件*
 
-- **qtpropertybrowser**
+- **qttoolbardialog**
     提供 QtToolBarManager和 QtToolBarDialog类。
     包含声明和实现。
     *都是用来管理工具栏的*
