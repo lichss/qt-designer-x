@@ -20,12 +20,12 @@ lib文件夹包含子文件夹：
 和一个预编译头文件。**lib_pch.h**
 
 分别说明各个子文件的作用：
-<!-- 在这里添加分割！！ -->
+
 
 
 - **lib/components文件夹**
-包含两个头文件
-**qdesigner_components.h** 和 **qdesigner_components_global.h**
+    包含两个头文件
+    **qdesigner_components.h** 和 **qdesigner_components_global.h**
 
     一个QDesignerComponents类提供声明，一个提供编译动态库时所需的导入导出符号。
     只有类声明。
@@ -33,12 +33,12 @@ lib文件夹包含子文件夹：
 <!--lib包含了一些子模块、SDK、共享资源和项目配置文件。-->
 -----------
 - **lib/extension 文件夹**
-提供 QExtensionFactory 、 QExtensionManager 这两个类。
-声明，实现，动态库的导入导出宏都在这个文件。
+    提供 QExtensionFactory 、 QExtensionManager 这两个类。
+    声明，实现，动态库的导入导出宏都在这个文件。
 
 
 <!-- sdk 文件夹 和 shared文件夹类似，都是头文件加源文件。 -->
-----------
+-----------
 - **lib/shared 文件夹**
     包含一堆抽类的声明和实现。
     包含了一些通用的、共享的代码。
@@ -89,7 +89,7 @@ src.pro下的
 （默认使用动态链接库编译）-->
 
 ### uiplugin文件夹
-<!-- uiplugin 是最低级依赖 -->
+
 
 文件不多，两个头文件。一个是 customwidget.h ，另一个是 qdesignerexportwidget.h
 这个文件夹只有头文件，没有源文件
@@ -98,7 +98,7 @@ customwidget.h
 
 QDesignerCustomWidgetInterface
 QDesignerCustomWidgetCollectionInterface
-<!-- 在哪实现的呢？ 。。。至少在repo 里找不到 -->
+
 
 
 
